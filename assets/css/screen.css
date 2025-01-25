@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #00ab6b;
+    color: #40A2D8;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: #40A2D8;
     text-decoration: none;
 }
 
@@ -205,7 +205,8 @@ section.recent-posts {
 .post-top-meta .author-description {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    color: #9AA6B2
 }
 
 .toc ul {
@@ -275,7 +276,7 @@ span.post-read-more a:hover {
 .mediumnavigation .form-inline .btn:hover,
 .mediumnavigation .form-inline .btn:active {
     background: transparent;
-    color: green;
+    color: #40A2D8;
 }
 
 .mediumnavigation .navbar-brand {
@@ -525,8 +526,8 @@ ul.tags li a:hover {
 }
 
 .btn.follow {
-    border-color: #02B875;
-    color: #1C9963;
+    border-color: #40A2D8;
+    color: #40A2D8;
     padding: 3px 10px;
     text-align: center;
     border-radius: 999em;
@@ -535,8 +536,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: #40A2D8;
+    border-color: #40A2D8;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -581,8 +582,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: #40A2D8;
+    border: 1px solid #40A2D8;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
@@ -776,6 +777,7 @@ iframe {
         border-radius: 0;
         background-image: url(../images/jumbotron.jpg);
         background-size: cover;
+        background-position: center;
     }
 
     .jumbotron.fortags .col-md-4 {
