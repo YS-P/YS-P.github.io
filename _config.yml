@@ -4,7 +4,7 @@ title: "Park's 2han"
 description: "2han's Development Journal"
 logo: './assets/images/logo.png'
 favicon: './assets/images/logo.png'
-baseurl: /ys-p.github.io
+baseurl: ''
 url: 'https://ys-p.github.io'
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
