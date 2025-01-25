@@ -332,7 +332,7 @@ span.post-read-more a:hover {
 
 .article-post {
     font-family: Merriweather;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
 }
@@ -901,3 +901,4 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+  

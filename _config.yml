@@ -7,7 +7,7 @@ favicon: './assets/images/logo.png'
 baseurl: ''
 url: 'https://ys-p.github.io'
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
+disqus: 'ihanblog'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
@@ -15,14 +15,15 @@ permalink: /:title/
 # Authors
 authors:
   2han:
-    name: Yeongshin Park
+    name: 2han
     display_name: 2han
     avatar: './assets/images/2han_prof.jpg'
     gravatar: https://gravatar.com/profoundlyjoyful5257e9c160
     email: p17030508@gmail.com
     github: https://github.com/YS-P
     web: /about
-    description: "TUWien DataScience"
+    description: "Currently in Vienna, Austria"
+
 
 # Plugins
 plugins:
