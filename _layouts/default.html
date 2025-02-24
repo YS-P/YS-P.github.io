@@ -118,9 +118,9 @@ ga('send', 'pageview');
     <div class="container text-center">
         <span>
             <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.title }}" style="width: 70px; height: auto;">
-            &nbsp; Never miss a <b>story</b>, subscribe to our newsletter
+            &nbsp; Never miss a <b>story</b>, subscribe to my post
         </span>          
-        <form action="{{ site.mailchimp-list }}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <form action="/feature-not-activated.html" method="get" name="mc-embedded-subscribe-form" class="wj-contact-form validate" novalidate>
             <div class="mc-field-group">
                 <input type="email" placeholder="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
                 <input type="submit" value="Subscribe" name="subscribe" class="heart">
@@ -128,6 +128,7 @@ ga('send', 'pageview');
         </form>
     </div>
 </div>
+
 
 {% endif %}
     
