@@ -115,31 +115,20 @@ ga('send', 'pageview');
 <!-- Bottom Alert Bar
 ================================================== -->
 <div class="alertbar">
-	<div class="container text-center">
-		<span>
-            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}" style="width: 70px; height: auto;">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            &nbsp; Never miss a <b>story</b>, subscribe to my post
-          </span>          
-        <form action="/feature-not-activated.html" method="get" name="mc-embedded-subscribe-form" class="wj-contact-form validate" novalidate>
-=======
-            &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter
-          </span>          
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
->>>>>>> ce984d0 (first post upload)
-=======
-            &nbsp; Never miss a <b>story</b>, subscribe to my post
-          </span>          
-        <form action="/feature-not-activated.html" method="get" name="mc-embedded-subscribe-form" class="wj-contact-form validate" novalidate>
->>>>>>> eaf9f6c (second post)
+    <div class="container text-center">
+        <span>
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.title }}" style="width: 70px; height: auto;">
+            &nbsp; Never miss a <b>story</b>, subscribe to our newsletter
+        </span>          
+        <form action="{{ site.mailchimp-list }}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+                <input type="email" placeholder="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+                <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
         </form>
-	</div>
+    </div>
 </div>
+
 {% endif %}
     
 </div>
